@@ -1,10 +1,10 @@
 use pyo3::prelude::*;
-use demo_lib;
+use demo;
 
 /// Formats the sum of two numbers as string.
 #[pyfunction]
 fn add(a: isize, b: isize) -> PyResult<isize> {
-    let result = demo_lib::add(a, b);
+    let result = demo::add(a, b);
     Ok(result)
 }
 

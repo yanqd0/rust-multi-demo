@@ -1,5 +1,5 @@
 [package]
-name = "demo-bin"
+name = "demo"
 version = "0.1.0"
 authors = ["Yan QiDong <yanqd0@outlook.com>"]
 edition = "2018"

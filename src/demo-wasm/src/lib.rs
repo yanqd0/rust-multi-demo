@@ -1,5 +1,5 @@
 use wasm_bindgen::prelude::*;
-use demo_lib::add;
+use demo::add;
 
 #[wasm_bindgen]
 extern {

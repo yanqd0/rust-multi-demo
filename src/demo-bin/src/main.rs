@@ -1,4 +1,4 @@
-use demo_lib::add;
+use demo::add;
 
 fn main() {
     let i = add(1, 2);
