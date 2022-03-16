@@ -4,4 +4,5 @@ members = [
     "src/demo-bin",
     "src/demo-lib",
     "src/demo-py",
+    "src/demo-wasm",
 ]
