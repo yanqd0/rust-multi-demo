@@ -38,7 +38,7 @@ The wheel is built to `target/wheels/`.
 ## NPM
 
 ```sh
-wasm-pack build src/demo-wasm
+wasm-pack build src/demo-wasm --target=web
 ```
 
 Run `cargo install wasm-pack` first if it is not installed.
